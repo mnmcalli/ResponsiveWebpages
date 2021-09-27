@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: black;
 }
 h1{
-    font-size: xx-large;
+    font-size: xxx-large;
     color: white;
     text-shadow: 2px 2px black;
 }
@@ -59,34 +59,43 @@ img{
     height: 200px;
 }
 .box{
-    height: 650px;
-    width: 250px;
+    float: top;
+    height: 150px;
+    width: 100%;
     margin: 8px;
-    float: left;
+}
+.aboutBox{
+    height: 650px;
+    width: 100%;
+    margin: 8px;
 }
 .container{
     height: 800px;
+    width: 100%;
 }
 h2{
     text-align: center;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
 }
 footer{
     height: 200px;
 }
-@media screen and (min-device-width: 600px){
+@media screen and (min-width: 600px){
     .box{
-        width: 100%;
-        background-color: red;
+        width: 250px;
+        float: left;
+    }
+    .aboutBox{
+        height: 250px;
     }
     img{
-        width: 500px;
-        height: 500px;
+        width: 200px;
+        height: 200px;
     }
     h1{
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 }
